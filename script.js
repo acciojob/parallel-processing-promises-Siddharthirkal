@@ -1,4 +1,6 @@
 //your JS code here. If required.
+document.addEventListener("DOMContentLoaded",() => {
+
 const output = document.getElementById("output");
 const btn = document.getElementById("download-images-button");
 const errorDiv = document.getElementById("error");
@@ -45,6 +47,7 @@ function downloadImages(){
 	});
 }
 btn.addEventListener("click", downloadImages);
+	});
 
 
 
